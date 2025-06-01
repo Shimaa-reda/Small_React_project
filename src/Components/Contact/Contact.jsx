@@ -1,6 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Contact() {
+
+   useEffect(() => {
+    document.title = 'contact';
+  }, []);
   const [userName, setUserName] = useState("");
   const [userPassword, setUserPassword] = useState("");
   const [userAge, setUserAge] = useState("");

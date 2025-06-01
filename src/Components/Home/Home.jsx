@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import homeImage from "../../assets/home.svg";
 export default function Home() {
+   useEffect(() => {
+      document.title = 'home';
+    }, []);
   return (
     <>
       <div className="home d-flex justify-content-center align-items-center flex-column " style={{height:'710px'}}>

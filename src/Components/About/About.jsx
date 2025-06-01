@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function About() {
+  useEffect(() => {
+    document.title = 'about';
+  }, []);
   return <>
   
   <div className="about_page d-flex justify-content-center align-items-center flex-column " style={{height:'710px'}}>

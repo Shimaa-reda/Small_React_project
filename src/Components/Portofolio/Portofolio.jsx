@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import port1 from '../../assets/poert1.png'
 import port2 from '../../assets/port2.png'
 import port3 from '../../assets/port3.png'
 
 
 export default function Portofolio() {
+   useEffect(() => {
+    document.title = 'portfolio';
+  }, []);
  const [selectedImage, setSelectedImage] = useState(null);
 
    
