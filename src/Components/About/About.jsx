@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return <>
   
-  <div className="home d-flex justify-content-center align-items-center flex-column vh-100">
+  <div className="about_page d-flex justify-content-center align-items-center flex-column " style={{height:'710px'}}>
         
          <div className="content pt-4 text-center">
            <h2 className="text-uppercase text-white fw-bolder fs-1 mb-3">

@@ -8,7 +8,7 @@ export default function Footer() {
     </div> */}
 
 
-      <div className="footer pt-5 bg-second-color text-white">
+      <div className="footer pt-5 bg-second-color text-white ">
         <div className="container py-3">
           <div className="row">
             <div className="col-sm-12 col-md-4 mb-4 mb-md-0">

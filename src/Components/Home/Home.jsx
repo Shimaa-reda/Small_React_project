@@ -3,7 +3,7 @@ import homeImage from "../../assets/home.svg";
 export default function Home() {
   return (
     <>
-      <div className="home d-flex justify-content-center align-items-center flex-column vh-100">
+      <div className="home d-flex justify-content-center align-items-center flex-column " style={{height:'710px'}}>
         <img src={homeImage} alt="" style={{ width: "200px" }} />
         <div className="content pt-4 text-center">
           <h2 className="text-uppercase text-white fw-bolder fs-1 mb-3">
